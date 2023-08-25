@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.199.0/"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch=src/ ./src/main.ts"
+  },
+  "fmt": {
+    "useTabs": true,
+    "lineWidth": 160,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": ["src/"],
+    "exclude": ["test/"]
+  },
+}
